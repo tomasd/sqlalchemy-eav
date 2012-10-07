@@ -8,7 +8,7 @@ python:
 
 before_install: pip install sqlalchemy
 
-script: python -m unittest discover
+script: python setup.py test
 
 branches:
   except:
