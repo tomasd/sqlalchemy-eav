@@ -12,4 +12,5 @@ setup(
     author_email='tomas@drencak.com',
     description='Generic Entity-Attribute-Value model for sqlalchemy',
     install_requires=['sqlalchemy'],
+    test_suite='tests'
 )
