@@ -31,7 +31,7 @@ class Attribute(object):
         server_default='char')
     multiple = sa.Column(sa.Boolean, server_default='false', default=False)
 
-    def __init__(self, id, name, type='char', multiple=False):
+    def __init__(self, id=None, name=None, type='char', multiple=False):
         super(Attribute, self).__init__(id=id, name=name, type=type,
                                         multiple=multiple)
 
